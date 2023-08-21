@@ -9,4 +9,4 @@ A página permitirá a conexão entre pessoas que buscam bartenders e os própri
 - JavaScript
 
 ### Link 
-[https://bartender-web.netlify.app/](https://bartender-web.netlify.app/)https://bartender-web.netlify.app/
+[https://bartender-web.netlify.app/](https://bartender-web.netlify.app/)
