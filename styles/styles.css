@@ -41,9 +41,13 @@
   flex-direction: row;
 }
 
+.navigation-content ul {
+  display: flex;
+  flex-direction: row;
+}
+
 .navigation-container {
-  padding-top: 1rem;
-  margin-left: -2rem;
+  margin-left: -9rem;
 }
 
 .navigation-item {
@@ -59,7 +63,7 @@
   font-weight: bold;
 }
 
-.button-container {
+.container-button {
   margin: 1rem;
 }
 
@@ -231,8 +235,12 @@ footer {
   cursor: pointer;
 }
 
+.products-box {
+  margin-right: 2rem;
+}
+
 .product-title {
-  margin-right: 3rem;
+  text-align: center;
 }
 
 .modal-title {
@@ -254,4 +262,37 @@ input {
 textarea {
   border: 1px solid black;
   border-radius: 1rem;
+}
+
+.bartender_form_container h1 {
+  text-align: center;
+  color: red;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.bartender-navigation-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.bartender-navigation-item {
+  list-style: none;
+  font-weight: 500;
+  padding-right: 6rem;
+  margin-top: 1rem;
+}
+
+.bartender-navigation-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.bartender-navi-links {
+  color: white;
 }
