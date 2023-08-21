@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Document</title>
+  </head>
+
+  <header class="header-container">
+    <div class="header-content">
+      <img id="img-drink" src="./assets/drink.png" alt="drink" />
+      <h1><a class="navi-links" href="index.html">Bartender Store</a></h1>
+    </div>
+
+    <nav class="navigation-container">
+      <ul class="navigation-content">
+        <li class="navigation-item">
+          <a class="navi-links" href="bartender.html">Bartender's</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navi-links" href="drinks.html">Drinks</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navi-links" href="products.html">Products</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="button-container">
+      <div class="button-container">
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-toggle="modal"
+          data-target="#modalExemplo"
+        >
+          Bartender's Form
+        </button>
+
+        <div
+          class="modal fade"
+          id="modalExemplo"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Bartender's Form
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Fechar"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <label for="name">Nome</label>
+                <input type="text" />
+                <label for="email">Email</label>
+                <input type="text" />
+                <label for="cellphone">Celular</label>
+                <input type="number" />
+                <label for="sobre">Sobre</label>
+                <textarea name="" id="" cols="5" rows="3"></textarea>
+                <label for="objetivos">Objetivos</label>
+                <textarea name="" id="" cols="5" rows="4"></textarea>
+                <label for="challange">Desafios</label>
+                <textarea name="" id="" cols="5" rows="4"></textarea>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Fechar
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Enviar Formulário
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="button-style">Login</button>
+        <button class="button-style">Sign-up</button>
+      </div>
+    </div>
+  </header>
+
+  <body>
+    <div class="bartender-container">
+      <img
+        class="image-outdoor"
+        src="https://barprofessional.eu/wp-content/uploads/2019/02/speakeasy-collection.jpg"
+        alt="bartender-outdoor"
+      />
+      <div class="products-box">
+        <h1 class="product-title">
+          Encontre os melhores produtos para você fazer seu Drink
+        </h1>
+      </div>
+    </div>
+
+    <div class="highlights-content">
+      <hr />
+      <h1 class="highlights-title">Products</h1>
+      <hr />
+    </div>
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="drink-box">
+            <img
+              class="drinks-style"
+              src="https://m.media-amazon.com/images/I/5152dxqa7EL._AC_UF894,1000_QL80_.jpg"
+              alt="bourbon"
+            />
+            <div class="description">
+              <h3><b>Cocktail Set</b></h3>
+              <p><b>RS158,99</b></p>
+              <p><b>Sobre este item</b></p>
+              <ul>
+                <li>
+                  Este conjunto com bordas lisas e redondas e não vai arranhar
+                  seu copo de vidro ou machucá-lo enquanto bebe.
+                </li>
+                <li>
+                  Interior em aço inoxidável 304 que não drena produtos químicos
+                  perigosos nem afeta os sabores de suas bebidas.
+                </li>
+                <li>
+                  Suporte de acrílico para armazenamento de ferramentas de barra
+                  com aparência impressionante, acessibilidade e estável.
+                </li>
+                <li>
+                  Você pode lavá-los com facilidade e manter o brilho com
+                  facilidade.
+                </li>
+                <li>Impede a absorção e descoloração, com boa durabilidade.</li>
+              </ul>
+              <h4><b>Avalie este item</b></h4>
+              <div class="star-rating">
+                <button class="star">&#9734;</button>
+                <button class="star">&#9734;</button>
+                <button class="star">&#9734;</button>
+                <button class="star">&#9734;</button>
+                <button class="star">&#9734;</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="drink-box">
+            <img
+              class="drinks-style"
+              src="https://m.media-amazon.com/images/I/71K9Hu2XjeL._AC_SL1500_.jpg"
+              alt="martini"
+            />
+            <div class="description">
+              <h3><b>Juicer</b></h3>
+              <p><b>R$79,90</b></p>
+              <p><b>Sobre este item</b></p>
+              <p>
+                Esse espremedor é ideal para bartenders que procuram um produto
+                de qualidade, ele é perfeito para a produção de suco de limão e
+                pode ser usado para montagem de drinks, coquetéis e demais áreas
+                da culinária. O seu tamanho grande permite uma fácil manipulação
+                e permite que utilizem frutas diferentes como laranja e limão de
+                tamanhos diversos. Seu material Inox é muito resistente e
+                proporciona longa durabilidade do produto, diminuindo os custos
+                com a reposição do utensílio. Outro destaque desse espremedor é
+                o seu brilho, ele é uma peça linda que deixa a sua cozinha e o
+                seu bar ainda mais elegante.
+              </p>
+              <h4><b>Avalie este item</b></h4>
+              <div class="star-rating">
+                <button class="star">&#9734;</button>
+                <button class="star">&#9734;</button>
+                <button class="star">&#9734;</button>
+                <button class="star">&#9734;</button>
+                <button class="star">&#9734;</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="drink-box">
+            <img
+              class="drinks-style"
+              src="https://m.media-amazon.com/images/I/81UBQXhjFUL._AC_SL1500_.jpg"
+              alt="manhattan"
+            />
+            <div class="description">
+              <h3><b>Jigger</b></h3>
+              <p><b>R$75,90</b></p>
+              <p><b>Sobre este item</b></p>
+              <ul>
+                <li>
+                  Design moderno e elegante - Personalizado para um bartender de
+                  carreira, este medidor de coquetel tem tudo que um bar precisa
+                  para medir e criar coquetéis perfeitos.
+                </li>
+                <li>
+                  Feito para durar : não poupamos despesas para fazer um copo
+                  medidor de coquetel que durará a vida inteira!
+                </li>
+                <li>
+                  Despeje com confiança - A ferramenta perfeita para iniciantes
+                  e profissionais!
+                </li>
+                <li>
+                  Menos desperdício - Você pode ser o barman mais rápido do
+                  mundo, mas isso não importa se você não for preciso.
+                </li>
+              </ul>
+
+              <h4><b>Avalie este item</b></h4>
+              <div class="star-rating">
+                <button class="star">&#9734;</button>
+                <button class="star">&#9734;</button>
+                <button class="star">&#9734;</button>
+                <button class="star">&#9734;</button>
+                <button class="star">&#9734;</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="drink-box">
+            <img
+              class="drinks-style"
+              src="https://m.media-amazon.com/images/I/71yOvjlidoS.jpg"
+              alt="mojito"
+            />
+            <div class="description">
+              <h3><b>Muddler</b></h3>
+              <p><b>R$33,00</b></p>
+              <p><b>Sobre este item</b></p>
+              <ul>
+                <li>
+                  Muddler de coquetel de aço inoxidável: este muddler de metal é
+                  essencial para o seu conjunto de ferramentas de barra.
+                </li>
+                <li>
+                  O melhor de todos os muddlers de coquetel: o comprimento do
+                  muddler de bebida é feito de aço inoxidável, mas a cabeça
+                  ranhurada é feita de nylon.
+                </li>
+                <li>
+                  Muddler de bartender de alta qualidade: ao contrário da
+                  madeira que pode coletar resíduos e depositá-los em suas
+                  bebidas, este macerador de menta é feito de aço inoxidável
+                  altamente durável.
+                </li>
+                <li>
+                  Muddler para bebidas em todos os copos: o comprimento deste
+                  muddler de coquetel é perfeito para copos curtos ou altos.
+                </li>
+              </ul>
+              <h4><b>Avalie este item</b></h4>
+              <div class="star-rating">
+                <button class="star">&#9734;</button>
+                <button class="star">&#9734;</button>
+                <button class="star">&#9734;</button>
+                <button class="star">&#9734;</button>
+                <button class="star">&#9734;</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-scrollbar"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="./scripts/star-rating.js"></script>
+  <script src="./scripts/swiper-slides.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"
+  ></script>
+</html>

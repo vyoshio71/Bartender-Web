@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Bartender</title>
+  </head>
+  <header class="header-container">
+    <div class="header-content">
+      <img id="img-drink" src="./assets/drink.png" alt="drink" />
+      <h1><a class="navi-links" href="index.html">Bartender Store</a></h1>
+    </div>
+
+    <nav class="navigation-container">
+      <ul class="navigation-content">
+        <li class="navigation-item">
+          <a class="navi-links" href="bartender.html">Bartender's</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navi-links" href="drinks.html">Drinks</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navi-links" href="products.html">Products</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="button-container">
+      <div class="button-container">
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-toggle="modal"
+          data-target="#modalExemplo"
+        >
+          Bartender's Form
+        </button>
+
+        <div
+          class="modal fade"
+          id="modalExemplo"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Bartender's Form
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Fechar"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <label for="name">Nome</label>
+                <input type="text" />
+                <label for="email">Email</label>
+                <input type="text" />
+                <label for="cellphone">Celular</label>
+                <input type="number" />
+                <label for="sobre">Sobre</label>
+                <textarea name="" id="" cols="5" rows="3"></textarea>
+                <label for="objetivos">Objetivos</label>
+                <textarea name="" id="" cols="5" rows="4"></textarea>
+                <label for="challange">Desafios</label>
+                <textarea name="" id="" cols="5" rows="4"></textarea>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Fechar
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Enviar Formulário
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="button-style">Login</button>
+        <button class="button-style">Sign-up</button>
+      </div>
+    </div>
+  </header>
+
+  <body class="body-container">
+    <div class="bartender-container">
+      <img
+        class="image-outdoor"
+        src="https://www.goingout.fr/uploads/images/5ae712906949d5ae7123385434_bartender-grande.jpg"
+        alt="bartender-outdoor"
+      />
+
+      <div class="bartender-title">
+        <h1>Encontre os melhores Bartender`s para ocasiões especiais</h1>
+      </div>
+    </div>
+
+    <div class="highlights-content">
+      <hr />
+      <h1 class="highlights-title">Bartender's</h1>
+      <hr />
+    </div>
+
+    <div class="bartender-container">
+      <div class="bartender-content">
+        <img
+          class="bartender-styles"
+          src="./assets/bartender1.png"
+          alt="bartender"
+        />
+        <button class="button-contact">Contact</button>
+      </div>
+
+      <div class="bartender-content">
+        <img
+          class="bartender-styles"
+          src="./assets/bartender2.png"
+          alt="bartender"
+        />
+        <button class="button-contact">Contact</button>
+      </div>
+    </div>
+  </body>
+
+  <footer></footer>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"
+  ></script>
+</html>
